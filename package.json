@@ -1,0 +1,11 @@
+{
+  "name": "@traduongz/any-web",
+  "version": "0.0.1",
+  "repository": "https://github.com/traduongz/any-web",
+  "scripts": {
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
