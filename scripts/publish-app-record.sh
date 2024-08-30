@@ -54,7 +54,7 @@ record:
   app_version: "$rcd_app_version"
   app_type: "$CERC_APP_TYPE"
   tags:
-    - non-reference
+    - "non-reference"
 EOF
 
 
@@ -96,7 +96,7 @@ record:
     repository: "`git remote get-url origin`"
     repository_ref: "${GITHUB_SHA:-`git log -1 --format="%H"`}"
   tags:
-    - non-reference
+    - "non-reference"
 EOF
 
 cat $ADR_RECORD_FILE
